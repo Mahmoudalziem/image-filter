@@ -1,1 +1,1 @@
-PROJECT_URL: http://image-filter-dev2222222.us-west-2.elasticbeanstalk.com/
+PROJECT_URL: http://imagefilter-env.eba-hppdwpx6.us-west-2.elasticbeanstalk.com/
