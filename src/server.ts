@@ -39,7 +39,7 @@ import { filterImageFromURL, deleteLocalFiles } from "./util/util";
       return res.status(400).send("image_url is required");
     }
 
-    filterImageFromURL(image_url)
+     filterImageFromURL(image_url)
       .then((filteredpath) => {
         return res.status(200).sendFile(filteredpath, (err) => {
           if (!err) {
